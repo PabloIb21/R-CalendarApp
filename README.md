@@ -10,6 +10,24 @@ _Escribe el siguiente comando para instalar los módulos de Node.js_
 npm install
 ```
 
+_Crear una archivo en la raíz llamado .env.development con la sig. variable_
+
+```
+REACT_APP_API_URL=La URL de tu Backend en desarrollo
+```
+
+_Crear una archivo en la raíz llamado .env.production con la sig. variable_
+
+```
+REACT_APP_API_URL=La URL de tu Backend en producción
+```
+
+_Crear una archivo en la raíz llamado .env.test con la sig. variable_
+
+```
+REACT_APP_API_URL=La URL de tu Backend en testing
+```
+
 _Iniciar la aplicación_
 
 ```
